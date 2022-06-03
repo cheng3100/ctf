@@ -10,9 +10,11 @@ done.
 # split
 
 ## TODO
-- how to search string/symbol by `rabin2` or other
-- how to dump binary at a address
-- how use gdb watch stack change
+- how to search string/symbol by `rabin2` or other [done]
+- how to dump binary at a address 
+- how use gdb watch stack change 
+- pwntools more usage method [done]
+- gdb debug coredump file
 
 > here is a example solution to refer the more skillful tool usage
 > https://bananamafia.dev/post/x64-bof/
