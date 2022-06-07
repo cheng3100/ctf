@@ -47,3 +47,12 @@ But better use this to list all string at ./rodata
 
 * search asm instruction by ropper
 `ropper -f [binfile] --search ["call "]`
+
+# callme & write4
+see note
+
+# badchars
+## trick
+'flag.txt' has all the 4 `bad char`. The method to bypass it is to xor the `badchars` then use the gadget to xor back.
+
+another trick is the address cann't set to the beginning of `.data` section. Because this address + 4 will has a `\x2e` bytes which equals the `.`. So I choose the `.data` + 8 as the address to save the path string
