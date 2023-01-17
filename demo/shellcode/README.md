@@ -1,3 +1,7 @@
+# about this demo
+The shellcode.c insert a shellcode byte into the main function. The shellcode is used to invoke the 
+`/bin/sh` by system call directly
+
 # TODO
 - add arg in test.py to split shellcode output and run pwn test
 - try the `bx esp` method on x86/x64
