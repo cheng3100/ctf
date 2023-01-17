@@ -1,3 +1,6 @@
 [submodule "tools/ftrace"]
 	path = tools/ftrace
 	url = https://github.com/elfmaster/ftrace.git
+[submodule "tools/binwalk"]
+	path = tools/binwalk
+	url = https://github.com/ReFirmLabs/binwalk.git
