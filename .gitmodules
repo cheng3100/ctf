@@ -4,3 +4,6 @@
 [submodule "tools/binwalk"]
 	path = tools/binwalk
 	url = https://github.com/ReFirmLabs/binwalk.git
+[submodule "tools/libelfmaster"]
+	path = tools/libelfmaster
+	url = https://github.com/elfmaster/libelfmaster.git
